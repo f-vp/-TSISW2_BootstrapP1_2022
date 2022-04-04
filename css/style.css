@@ -1,0 +1,144 @@
+@font-face {
+    font-family: LouisGeorgeCafeBold;
+    src: url(/css/font/LouisGeorgeCafeBold.ttf);
+}
+/*  
+    Source:
+    https://www.dafont.com/louis-george-caf.font
+
+    Fonte gratuita para uso comercial e pessoal segundo a nota do autor presente no site acima:
+    "(...) you can create posters, web graphics, game graphics, t-shirts, videos, signs, logos and more.
+    These fonts are 100% FREE for both personal and business usages. (...)"
+*/
+
+.navbar .row {
+    --bs-gutter-x: 0rem;
+    justify-content: space-between;
+}
+
+.navbar span{
+    color: rgb(220, 88, 40);
+}
+
+body{
+    font-family: LouisGeorgeCafeBold;
+}
+
+a, a p{
+    margin-bottom: 5px;
+}
+
+a, a:hover {
+    color:black;
+    text-decoration: solid;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 3.1em;
+    padding-bottom: 15px;
+}
+
+h3{
+    color: gray;
+    font-size: 1.8em;
+    margin: 0;
+}
+
+h5{
+    font-weight: bolder;
+}
+
+h6 {
+    font-size: .9em;
+    padding-bottom: 15px;
+    color: rgb(128, 128, 128);
+}
+
+.container {
+    padding: 100px 0;
+}
+
+.section-1 {
+    padding-top: 100px;
+    text-align: center;
+    margin: 0px 21% 0px
+}
+.section-1 p {
+    padding-top: 15px;
+    color: rgb(139, 44, 226);
+}
+
+.section-1 h1{
+    padding-bottom: 20px;
+    font-size: 5.3em;
+    font-weight: bold;
+    line-height: 1.0;
+}
+
+.section-1 .btn-primary {
+    margin-top: 15px;
+}
+
+.section-1:last-of-type .btn-primary{
+    margin-top: 30px;
+}
+
+.section-1:last-of-type h3{
+    font-size: 1.45em;
+    margin: 0
+}
+
+.section-2{
+    padding-top: 100px;
+    font-size: 1.25em;
+}
+
+.section-2 .col:last-of-type{
+    padding-left: 300px;
+}
+
+.section-2 p:first-of-type{
+    font-size: 1.3em;
+    padding-right: 100px;
+}
+
+.section-3{
+    padding-top: 100px;
+    font-size: 1.3em;
+}
+
+.section-3 .col:first-of-type{
+    padding-right: 400px;
+}
+
+.section-img{
+    padding-top: 100px;
+}
+
+.smaller h3{
+    padding: 0px 100px 0px;
+}
+
+footer{
+    padding-top: 150px;
+}
+
+footer p span {
+    color:rgb(128, 128, 128);
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: rgb(0, 0, 0) !important;
+  white-space: nowrap;
+  padding: 15px 25px 20px 25px;
+  font-size: 1em;
+  border-radius: 2px;
+  border-color: black;
+}
+
+
+
